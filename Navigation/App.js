@@ -5,14 +5,13 @@ import Home from "./components/Home";
 import ContactUs from "./components/ContactUs";
 import AboutUs from "./components/AboutUs";
 
-import { Text } from "react-native-paper";
 
 export default function App() {
   const Stack = createNativeStackNavigator();
   return (
     <SafeAreaProvider>
       <NavigationContainer>
-        <Text>Welcome</Text>
+        
         <Stack.Navigator
           initialRouteName="home"
           screenOptions={{
